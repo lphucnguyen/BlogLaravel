@@ -59,6 +59,13 @@ Route::group(['prefix' => '/admin', 'name' => 'admin', 'namespace' => 'Admin', '
     Route::resource('/menu', 'MenuController');
 
     Route::resource('/contact', 'ContactController');
+
+    Route::get('clear', function () {
+        Artisan::call("cache:clear");
+        Artisan::call("config:clear");
+        Artisan::call("config:cache");
+        Artisan::call("route:clear");
+    });
 });
 
 Route::group(['prefix' => '/author', 'namespace' => 'author', 'middleware' => ['auth', 'author']], function () {
