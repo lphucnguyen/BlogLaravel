@@ -31,7 +31,7 @@ $config['authentication'] = '\App\Http\Middleware\CustomCKFinderAuth';
 // http://docs.cksource.com/ckfinder3-php/configuration.html#configuration_options_licenseKey
 
 $config['licenseName'] = 'http://lephucnguyen.herokuapp.com';
-$config['licenseKey']  = 'V7J77DWBM144NNYYRWHQ4WMJTRQL7';
+$config['licenseKey']  = 'YVPVS1SHXY6YWYJS16PKQYCAFHXN8';
 
 /*============================ CKFinder Internal Directory ============================*/
 // http://docs.cksource.com/ckfinder3-php/configuration.html#configuration_options_privateDir
