@@ -18,8 +18,7 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.1",
         "realrashid/sweet-alert": "^3.1",
-        "ext-gd": "*",
-        "ext-mcrypt": "*"
+        "ext-gd": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
