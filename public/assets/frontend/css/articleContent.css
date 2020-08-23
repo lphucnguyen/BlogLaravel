@@ -1,0 +1,183 @@
+/*
+Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+*/
+
+.articlePostContent blockquote
+{
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 2px 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0;
+}
+
+.articlePostContent blockquote
+{
+	padding-left: 20px;
+	padding-right: 8px;
+	border-left-width: 5px;
+}
+
+.articlePostContent blockquote
+{
+	padding-left: 8px;
+	padding-right: 20px;
+	border-right-width: 5px;
+}
+
+.articlePostContent a
+{
+	color: #0782C1;
+}
+
+.articlePostContent ol, .articlePostContent ul, .articlePostContent dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right: 0px;
+	/* Preserved spaces for list items with text direction different than the list. (#6249,#8049)*/
+	padding: 0 40px;
+}
+
+.articlePostContent h1,.articleContent h2,.articleContent h3,.articleContent h4,.articleContent h5,.articleContent h6
+{
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+.articlePostContent hr
+{
+	border: 0px;
+	border-top: 1px solid #ccc;
+}
+
+.articlePostContent img.right
+{
+	border: 1px solid #ccc;
+	float: right;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+.articlePostContent img.left
+{
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+.articlePostContent pre
+{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+	-moz-tab-size: 4;
+	tab-size: 4;
+}
+
+.articlePostContent .marker
+{
+	background-color: Yellow;
+}
+
+.articlePostContent span[lang]
+{
+	font-style: italic;
+}
+
+.articlePostContent figure
+{
+	text-align: center;
+	outline: solid 1px #ccc;
+	background: rgba(0,0,0,0.05);
+	padding: 10px;
+	margin: 10px 20px;
+	display: inline-block;
+}
+
+.articlePostContent figure > figcaption
+{
+	text-align: center;
+	display: block; /* For IE8 */
+}
+
+.articlePostContent a > img {
+	padding: 1px;
+	margin: 1px;
+	border: none;
+	outline: 1px solid #0782C1;
+}
+
+/* Widget Styles */
+.articlePostContent .code-featured
+{
+	border: 5px solid red;
+}
+
+.articlePostContent .math-featured
+{
+	padding: 20px;
+	box-shadow: 0 0 2px rgba(200, 0, 0, 1);
+	background-color: rgba(255, 0, 0, 0.05);
+	margin: 10px;
+}
+
+.articlePostContent .image-clean
+{
+	border: 0;
+	background: none;
+	padding: 0;
+}
+
+.articlePostContent .image-clean > figcaption
+{
+	font-size: .9em;
+	text-align: right;
+}
+
+.articlePostContent .image-grayscale
+{
+	background-color: white;
+	color: #666;
+}
+
+.articlePostContent .image-grayscale img,.articlePostContent img.image-grayscale
+{
+	filter: grayscale(100%);
+}
+
+.articlePostContent .embed-240p
+{
+	max-width: 426px;
+	max-height: 240px;
+	margin:0 auto;
+}
+
+.articlePostContent .embed-360p
+{
+	max-width: 640px;
+	max-height: 360px;
+	margin:0 auto;
+}
+
+.articlePostContent .embed-480p
+{
+	max-width: 854px;
+	max-height: 480px;
+	margin:0 auto;
+}
+
+.articlePostContent .embed-720p
+{
+	max-width: 1280px;
+	max-height: 720px;
+	margin:0 auto;
+}
+
+.articlePostContent .embed-1080p
+{
+	max-width: 1920px;
+	max-height: 1080px;
+	margin:0 auto;
+}
