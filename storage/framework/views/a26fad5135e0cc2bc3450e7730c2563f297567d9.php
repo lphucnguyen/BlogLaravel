@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\blog-laravel\resources\views\admin\subscriber\create.blade.php ENDPATH**/ ?>
