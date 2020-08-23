@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.28 - 2020-08-22
+
+* Allow to stream by default.
+
+## 1.0.27 - 2020-08-22
+
+* Revert always streaming reads (degraded functionality).
+
+## 1.0.26 - 2020-08-18
+
+* Always stream reads (#211)
+
 ## 1.0.25 - 2020-06-02
 
 * Use `S3Client::encodeKey` for key encoding.
