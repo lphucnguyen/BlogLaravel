@@ -26,6 +26,10 @@ Route::get('/search', 'WelcomeController@search')->name('search');
 
 Auth::routes();
 
+Route::get('/phpinfo', function () {
+    return phpinfo();
+});
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/admin', function(){
